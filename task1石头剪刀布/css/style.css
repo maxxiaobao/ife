@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#result{
+	width: 600px;
+	height: 200px;
+	margin: 50px auto;
+	background: white;
+}
+h1{
+	font-family: "仿宋";
+}
+#choose{
+	width: 700px;
+	height: 150px;
+	margin:50px auto;
+	background: white;
+   
+}
+.pic{
+	height: 150px;
+	width: 150px;
+	margin-left: 35.7px;
+	margin-right: 35.7px;
+	cursor: pointer;
+}
+#tittle1{
+	margin-top:10px ;
+}
+
+.respic {
+	width: 250px;
+	height: 200px;
+}
+
+#me{
+	float: left;
+}
+
+#computer{
+	float: right;
+}
+
+#pk{
+	height: 200px;
+	line-height: 200px;
+	width: 200px;
+	font-family: "微软雅黑";
+	font-size: 38px;
+	color: red;
+}
+
+#button{
+	display: block;
+	height:28px;
+	width:60px;
+	background: greenyellow;
+	font-family: "微软雅黑";
+	border-radius: 5px;	
+}
+
+#newgame{
+	width:100px;
+	height:30px;
+	background: chocolate;
+	position: absolute;
+	top: 200px;
+	right: 90px;
+    text-align: center;
+    line-height: 30px;
+    font-family:"仿宋";
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+#lastresult{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	font-weight: 100;
+	position: absolute;
+	top: 260px;
+	right: 40px;
+}
+
